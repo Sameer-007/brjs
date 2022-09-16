@@ -1,0 +1,155 @@
+﻿html, body {
+    height:100%;
+    width:100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f4f6f7;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: white;
+    background-color:rgba(49, 44, 44, 0.77)
+}
+
+.carousel {
+    position: relative;
+    margin-top: 5%;
+}
+
+.carousel-inner > .carousel-item >img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* margin: auto; */
+    /* display: block; */
+    background-size: cover;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 510px !important;
+}
+/*#home{
+    background:url(../Images/LandingPageImageEdited_1.jpg) no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position:relative;
+    top: 0;
+    left: 0;
+    bottom:0;
+    width:100%;
+    background-size:cover;   
+}*/
+
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+
+
+.align-bottom {
+    vertical-align: bottom !important;
+    padding-top: 11%;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #A5751A;
+    border-color: #A5751A;
+}
+
+.landing-text{
+    color:#fff;
+    display:table-cell;
+    text-align:center;
+    vertical-align:bottom;
+    padding-bottom:5%;
+}
+
+.align-content-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+    text-align: center;
+}
+
+
+.margin-top{
+    margin-top: 5%;
+}
+
+.div-space{
+    margin: 10% 0 10% 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+/*@media only screen and (max-width: 992px)
+{
+    .navbar-nav {
+        padding-right: 54px;
+    }
+}*/
+
+/*@media only screen and (min-width: 992px)
+{
+    .navbar-nav {
+        padding-left: 100px;
+    }
+}*/
+
+.custom-footer{
+    color:white;
+}
+footer > div.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -15px;
+}
+.remove-margin-padding{
+    margin:0px;
+    padding:0px;
+}
+.margin-all{
+    padding:10%;
+}
+
+@media only screen and (min-width: 1150px){
+    li.nav-item {
+    padding-left: 10px;
+}
+}
+
+@media screen and (max-width: 760px) {
+
+  .small-margin-top{
+      margin-top:5%;
+  }
+}

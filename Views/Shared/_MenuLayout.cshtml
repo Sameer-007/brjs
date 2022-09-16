@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Br. Joshaph Thambi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="~/Content/Custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/Custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        @*<div class="navbar-brand"><img src="~/Logos/Br.Joshaph_Thambi_Brand_Logo.png" /></div>*@
+        <a class="navbar-brand" href="~/Home/Index"><img src="~/Logos/Br.Joshaph_Thambi_Brand_Logo.png" /></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#SoGDropdown" href="#">Servent of God <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="SoGDropdown">
+                        <a class="dropdown-item">Biography</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Cause of Beatification</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Prayers</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Publication</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Favours Recieved</a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#ShirnDropdown" href="#">Shirn<span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="ShirnDropdown">
+                        <a class="dropdown-item">Administrations</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Programmes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Thamby's Tomb</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Museum</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Old Age Home</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Friary</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Parish</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Information Office</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Holy Articles</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Book Your Room</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Prayer Request</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#TVDropdown" href="#">Thambi Velugu <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="TVDropdown">
+                        <a class="dropdown-item">Latest Issue in PDF</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Subscribe</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Latest News</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Coming Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Links</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#HWRDropdown" href="#">Who We Are <span class="caret"></span></a>
+                    <div class="dropdown-menu" aria-labelledby="HWRDropdown">
+                        <a class="dropdown-item">History</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Vission and Mission</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Ministries</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Contact</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    
+
+        @RenderBody()
+   
+
+</body>
+</html>
